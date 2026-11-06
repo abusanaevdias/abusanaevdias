@@ -29,6 +29,8 @@ The three Python projects below are **independently runnable local demos** with 
 
 **Engineering focus:** clear interfaces, explicit state, reproducible tests, and documented trade-offs. Local checks and implementation evidence are recorded in the [build log](./BUILDLOG.md).
 
+[**Product systems library · 20 annotated references**](./PROJECT_LIBRARY.md) — learning, search, creative tools, careers, finance and customer operations.
+
 <details>
 <summary><strong>Engineering library · 15 attributed study forks</strong></summary>
 
@@ -46,3 +48,4 @@ These forks retain upstream authorship, history, and licenses. My additions are 
 </details>
 
 [Build log](./BUILDLOG.md) · [Asset notices](./ASSET-NOTICES.md)
+
