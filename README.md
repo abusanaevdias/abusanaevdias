@@ -1,53 +1,48 @@
-<p align="center"><img src="./engineering-banner.svg" alt="abusanaevdias — AI and Product Engineering" width="100%" /></p>
+<img src="./profile-hero.png" alt="abusanaevdias — Product &amp; AI engineering. Interfaces, services, evaluation." width="100%" />
 
-<p align="center">
-  <a href="#projects">Projects</a> &nbsp;·&nbsp;
-  <a href="#engineering-library">Engineering library</a> &nbsp;·&nbsp;
-  <a href="./repository-review.md">15 repository reviews</a>
-</p>
+I build TypeScript interfaces and Python services, with a focus on retrieval evaluation and reliable application workflows.
 
-## Focus
+The three Python projects below are **independently runnable local demos** with synthetic fixtures. Yummy Admin is a separate UI prototype using mock data.
 
-A workspace for TypeScript product interfaces and practical AI engineering research: agent workflows, retrieval, evaluation and reliable application boundaries.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/abusanaevdias/flow-inbox"><img src="./project-flow-inbox.png" alt="Flow Inbox — Python, SQLite, HTTP" width="100%" /></a>
+      <p><a href="https://github.com/abusanaevdias/flow-inbox"><strong>Flow Inbox</strong></a><br />SQLite event intake with idempotency, expiring leases, bounded retries, and inspectable history.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/abusanaevdias/retrieval-bench"><img src="./project-retrieval-bench.png" alt="Retrieval Bench — BM25, metrics, reports" width="100%" /></a>
+      <p><a href="https://github.com/abusanaevdias/retrieval-bench"><strong>Retrieval Bench</strong></a><br />BM25 retrieval, explicit relevance judgments, and reproducible JSON/HTML evaluation reports.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/abusanaevdias/yummy-operations-api"><img src="./project-yummy-api.png" alt="Yummy Operations API — Python, SQLite, REST" width="100%" /></a>
+      <p><a href="https://github.com/abusanaevdias/yummy-operations-api"><strong>Yummy Operations API</strong></a><br />Idempotent reservations, immutable order snapshots, and explicit state transitions backed by SQLite.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/abusanaevdias/yummy"><img src="./project-yummy-admin.png" alt="Yummy Admin — React and TypeScript interface prototype" width="100%" /></a>
+      <p><a href="https://github.com/abusanaevdias/yummy"><strong>Yummy Admin</strong></a><br />React/TypeScript operations interface with mock data. It is not connected to the separate Operations API.</p>
+    </td>
+  </tr>
+</table>
 
-The aim is simple: make the product useful, the architecture understandable and the result verifiable.
-
-## Projects
-
-| Project | Product scope | Technical focus |
-| :--- | :--- | :--- |
-| [ASHYQ Diagnostic](https://github.com/abusanaevdias/ashyq-diagnostic) | IELTS/SAT quick-diagnostic web application with result and lead-capture flows. Its estimates are preliminary, not official exam scores. | TypeScript, Next.js, React; question-bank validation and application checks are defined in the repository. |
-| [Yummy Admin](https://github.com/abusanaevdias/yummy) | Admin-interface prototype covering dashboard, branches, orders, employees and box templates. | React, TypeScript, Vite, Tailwind CSS and Recharts. Current source uses mock data. |
-
-[ASHYQ application URL](https://ashyq-diagnostic.vercel.app) · Application availability and individual features may change; the repository is the source for implementation scope.
-
-## Engineering library
-
-Fifteen upstream repositories selected by engineering purpose. Each review explains a use case, an architectural trade-off and a concrete verification plan.
-
-| Area | Selected references |
-| :--- | :--- |
-| Application foundations | [Full Stack FastAPI Template](https://github.com/fastapi/full-stack-fastapi-template), [React](https://github.com/react/react) |
-| Agent workflows | [Pydantic AI](https://github.com/pydantic/pydantic-ai), [LangGraph](https://github.com/langchain-ai/langgraph) |
-| Documents and retrieval | [LlamaIndex](https://github.com/run-llama/llama_index), [Qdrant](https://github.com/qdrant/qdrant), [pgvector](https://github.com/pgvector/pgvector) |
-| Evaluation and ML | [Promptfoo](https://github.com/promptfoo/promptfoo), [scikit-learn](https://github.com/scikit-learn/scikit-learn) |
-| Models and demonstrations | [Transformers](https://github.com/huggingface/transformers), [Ollama](https://github.com/ollama/ollama), [Streamlit](https://github.com/streamlit/streamlit), [Gradio](https://github.com/gradio-app/gradio) |
-| Engineering practice | [System Design Primer](https://github.com/donnemartin/system-design-primer), [Ruff](https://github.com/astral-sh/ruff) |
-
-[Read the engineering reviews →](./repository-review.md)
-
-## Quality bar
-
-- **Explicit boundaries:** separate the interface, application rules, data access and model/provider calls.
-- **Inspectable answers:** preserve sources, identify missing information and test unsupported questions.
-- **Reliable actions:** use clear permissions, bounded retries and idempotency around external side effects.
-- **Evidence before claims:** distinguish a source review, a local check, a deployment and a measured product result.
+**Engineering focus:** clear interfaces, explicit state, reproducible tests, and documented trade-offs. Local checks and implementation evidence are recorded in the [build log](./BUILDLOG.md).
 
 <details>
-<summary>About the open-source references</summary>
+<summary><strong>Engineering library · 15 attributed study forks</strong></summary>
 
-Original software belongs to the linked upstream authors. Study forks retain upstream history, documentation and licenses. The portfolio layer adds engineering notes; it does not claim authorship of these frameworks or accepted upstream contributions.
+These forks retain upstream authorship, history, and licenses. My additions are engineering notes covering use cases, architecture, trade-offs, and proposed verification. Source reviews do not imply accepted upstream contributions or execution of every upstream test suite.
 
-The reviews are documentation and proposed verification plans. They are not benchmarks or claims that all upstream runtime suites have been executed.
+| Area | Study forks |
+| :--- | :--- |
+| Application foundations | [Full Stack FastAPI Template](https://github.com/abusanaevdias/full-stack-fastapi-template), [React](https://github.com/abusanaevdias/react) |
+| Agent workflows | [Pydantic AI](https://github.com/abusanaevdias/pydantic-ai), [LangGraph](https://github.com/abusanaevdias/langgraph) |
+| Documents and retrieval | [LlamaIndex](https://github.com/abusanaevdias/llama_index), [Qdrant](https://github.com/abusanaevdias/qdrant), [pgvector](https://github.com/abusanaevdias/pgvector) |
+| Evaluation and ML | [Promptfoo](https://github.com/abusanaevdias/promptfoo), [scikit-learn](https://github.com/abusanaevdias/scikit-learn) |
+| Models and demonstrations | [Transformers](https://github.com/abusanaevdias/transformers), [Ollama](https://github.com/abusanaevdias/ollama), [Streamlit](https://github.com/abusanaevdias/streamlit), [Gradio](https://github.com/abusanaevdias/gradio) |
+| Engineering practice | [System Design Primer](https://github.com/abusanaevdias/system-design-primer), [Ruff](https://github.com/abusanaevdias/ruff) |
 
 </details>
+
+[Build log](./BUILDLOG.md) · [Asset notices](./ASSET-NOTICES.md)
