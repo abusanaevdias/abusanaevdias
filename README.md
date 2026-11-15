@@ -4,6 +4,12 @@ I build TypeScript interfaces and Python services, with a focus on retrieval eva
 
 The three Python projects below are **independently runnable local demos** with synthetic fixtures. Yummy Admin is a separate UI prototype using mock data.
 
+### Featured: Carbon Copilot
+
+<a href="https://github.com/abusanaevdias/carbon-copilot"><img src="./project-carbon-copilot.png" alt="Carbon Copilot: 91.3 tCO2e from a dropped ledger file, every line traced" width="100%" /></a>
+
+**[Carbon Copilot](https://github.com/abusanaevdias/carbon-copilot)**: purchase ledger → GHG inventory a bank can audit line by line. Built in 24 hours at CATALYST 2026 on the Bureau Veritas case. Deterministic engine with name masking and AI second readers that must agree. Scores 1.00 on the organisers' formula, and none of 4,400 injected lines moved a tonne. [Live showcase](https://carbon-copilot.vercel.app).
+
 <table>
   <tr>
     <td width="50%" valign="top">
